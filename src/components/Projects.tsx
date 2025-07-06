@@ -28,7 +28,7 @@ const Projects: React.FC = () => {
       date: 'Nov 10, 2023',
       liveDemo: 'https://moamenhussein.github.io/Quraan-Kareem/',
       github: 'https://github.com/moamenhussein/Quraan-Kareem',
-      image: 'https://images.pexels.com/photos/8111357/pexels-photo-8111357.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: '/public/Quraan.jpg',
     },
     {
       title: 'Hospital Management System',
