@@ -16,18 +16,18 @@ const Contact: React.FC = () => {
     });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Handle form submission here
-    console.log('Form submitted:', formData);
-    // Reset form
-    setFormData({
-      name: '',
-      email: '',
-      subject: '',
-      message: '',
-    });
-  };
+  // const handleSubmit = (e: React.FormEvent) => {
+  //   e.preventDefault();
+  //   // Handle form submission here
+  //   console.log('Form submitted:', formData);
+  //   // Reset form
+  //   setFormData({
+  //     name: '',
+  //     email: '',
+  //     subject: '',
+  //     message: '',
+  //   });
+  // };
 
   return (
     <section id="contact" className="py-20 bg-gray-50 dark:bg-gray-800">
@@ -125,7 +125,7 @@ const Contact: React.FC = () => {
             <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-6">
               Send Me a Message
             </h3>
-            <form onSubmit={handleSubmit} className="space-y-6">
+            <form className="space-y-6" action="https://formsubmit.co/moamenhussein2424@gmail.com" method="POST">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
@@ -134,7 +134,7 @@ const Contact: React.FC = () => {
                   <input
                     type="text"
                     id="name"
-                    name="name"
+                    name="Name"
                     value={formData.name}
                     onChange={handleChange}
                     required
@@ -149,7 +149,7 @@ const Contact: React.FC = () => {
                   <input
                     type="email"
                     id="email"
-                    name="email"
+                    name="Email"
                     value={formData.email}
                     onChange={handleChange}
                     required
@@ -166,7 +166,7 @@ const Contact: React.FC = () => {
                 <input
                   type="text"
                   id="subject"
-                  name="subject"
+                  name="Subject"
                   value={formData.subject}
                   onChange={handleChange}
                   required
@@ -181,7 +181,7 @@ const Contact: React.FC = () => {
                 </label>
                 <textarea
                   id="message"
-                  name="message"
+                  name="Message"
                   value={formData.message}
                   onChange={handleChange}
                   required
