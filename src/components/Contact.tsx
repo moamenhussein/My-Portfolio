@@ -190,7 +190,7 @@ const Contact: React.FC = () => {
                   placeholder="Tell me about your project or just say hello!"
                 ></textarea>
               </div>
-
+              <input type="hidden" name="_captcha" value="false" />
               <button
                 type="submit"
                 className="w-full flex items-center justify-center px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300"
