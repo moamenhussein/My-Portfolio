@@ -49,13 +49,13 @@ const Projects: React.FC = () => {
       image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
     },
     {
-      title: 'Market Wave Company',
-      description: 'A corporate website showcasing company services, team profiles, and past projects with a focus on professional presentation and user experience.',
-      technologies: ['React.js', 'Bootstrap', 'Routing'],
-      date: 'Jul 14, 2024',
-      liveDemo: 'https://market-wave-company.vercel.app/',
-      github: 'https://github.com/moamenhussein/Market-Wave-Company',
-      image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800',
+      title: 'Power Transmission Line',
+      description: 'Developed a freelance website project for PTL, a company specialized in contracting and solar energy, with branches in the UAE and Saudi Arabia.',
+      technologies: ['Next.js', 'Tailwind'],
+      date: 'Aug 01, 2025',
+      liveDemo: 'https://ptl-alpha.vercel.app/',
+      github: 'https://github.com/moamenhussein/PTL',
+      image: '/ptl.jpg',
     },
   ];
 
